@@ -12,7 +12,7 @@
 	<body>
 		<div class="header">
 			<div class="container">
-				<h1 class="header-heading">Put Student Names Here</h1>
+				<h1 class="header-heading">Austin Geisler's JavaScript Test</h1>
 			</div>
 		</div>
 		<div class="nav-bar">
@@ -62,8 +62,11 @@
 					<hr>
 
 					<h3>Task 1 - The Image</h3>
-					<img onClick = "functionName()" src="assets/img/compIcon.png" id="imageTask1"><br />
-					<button style="display:none" id="buttonTask1">Click Me</button>
+					<img onmouseover = "taskOneImgHover()" src="assets/img/compIcon.png" id="imageTask1"><br />
+					<br />
+					<!-- Change the style to visibility hidden so summoning the button doesn't rearrange the page-->
+					<!-- Same applies with clicking the button and the image. It will vanish without rearranging the webpage-->
+					<button style="visibility:hidden" id="buttonTask1" onclick="taskOneButton()">Click to hide Image</button>
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
