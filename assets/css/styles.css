@@ -270,3 +270,19 @@ Wide styles
 		border-bottom: 0;
 	}
 }
+
+/* -----------------------
+Task 2 button styles
+------------------------*/
+
+#buttonTask2White{
+	background-color: #fff;
+}
+
+#buttonTask2Cyan{
+	background-color: #00ffff;
+}
+
+#buttonTask2Yellow{
+	background-color: #ffff00;
+}
