@@ -13,12 +13,13 @@ function task5Checker() {
     let phone = document.getElementById("phone").value;
     let email = document.getElementById("email").value;
 
+    //Checks if any are empty
     if (name == "" || address == "" || phone == "" || email == "") {
         document.getElementById("invalidTask5").style.visibility = "visible";
     } else {
         document.getElementById("invalidTask5").style.visibility = "hidden";
     }
-
+    // All the following if statement check for specific feilds
     if (name == "") {
         document.getElementById("nameLabel").style.color = "red";
     } else {

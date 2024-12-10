@@ -7,7 +7,7 @@ each associated with a different color. When each button is clicked,
 change the background of the table to the color the button represents.
  */
 
-//Bg White function
+//Bg White/Reset function
 function tableBgWhite(){
     // Abstracting part of the code to make things easier to look at
     table = document.getElementById("tableTask2")
