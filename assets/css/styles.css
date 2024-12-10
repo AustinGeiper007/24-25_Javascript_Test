@@ -294,4 +294,6 @@ Task 2 button styles
 #invalidTask5{
 	color: #ff0000;
 	visibility: hidden;
+	padding: 0px;
+	margin: 0px;
 }
