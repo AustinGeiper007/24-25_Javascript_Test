@@ -290,3 +290,8 @@ Task 2 button styles
 #buttonTask2Magenta{
 	background-color: #ff00ff;
 }
+
+#invalidTask5{
+	color: #ff0000;
+	visibility: hidden;
+}
